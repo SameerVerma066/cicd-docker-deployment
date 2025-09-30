@@ -19,4 +19,4 @@ jobs:
           context: .
           file: ./docker/Dockerfile.backend
           push: true
-          tags: sameer/user-app-backend:${{ github.sha }}
+          tags: sameerv066/user-app-backend:${{ github.sha }}
